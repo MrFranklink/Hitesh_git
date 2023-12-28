@@ -14,7 +14,7 @@ const app = express();
 const PORT = 3000;
 
 const DATABASE_NAME = 'ioneq';
-const MONGODB_URI = `mongodb+srv://Harshit:Harshit@mental.wlgbwhj.mongodb.net/${DATABASE_NAME}?retryWrites=true&w=majority`;
+const MONGODB_URI = `mongodb+srv://username:Password@mental.wlgbwhj.mongodb.net/${DATABASE_NAME}?retryWrites=true&w=majority`;
 
 mongoose.connect(MONGODB_URI, {
     useNewUrlParser: true,
